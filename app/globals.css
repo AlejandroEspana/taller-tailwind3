@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@600;700&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -23,10 +22,10 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: 'Betania Patmos GDL', Arial, Helvetica, sans-serif;
 }
 
-/* Utility class for headings to use Playfair Display */
+/* Heading helper now uses the Betania font (requested) */
 .font-playfair {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Betania Patmos GDL', Georgia, serif;
 }
